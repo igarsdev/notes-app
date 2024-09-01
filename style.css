@@ -1,0 +1,111 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+li .note-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li .note-text {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+li .note-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+li .note-buttons button {
+  background: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+li .note-buttons button:hover {
+  background: #c82333;
+}
+
+li .note-buttons .edit-button {
+  background: #ffc107;
+}
+
+li .note-buttons .edit-button:hover {
+  background: #e0a800;
+}
+
+li .note-date {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 10px;
+  text-align: right;
+}
